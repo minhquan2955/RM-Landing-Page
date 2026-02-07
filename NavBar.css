@@ -36,10 +36,24 @@ li a {
   text-decoration: none;
   color: black;
 }
+/*Logo*/
+.logo {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.logo .rm-logo-small {
+  height: 50px;
+  margin: 0 10px;
+}
+.logo .honour {
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
 /*Nav Bar*/
 .navbar {
   color: black;
-  background-color: #e9e8e8;
   height: 70px;
   border-bottom: 1px solid gray;
 }
@@ -97,7 +111,7 @@ li a {
 }
 .boxes .box {
   max-width: 500px;
-  max-height: 500px;
+  max-height: auto;
   margin: 0 15px;
   padding: 10px;
   background-color: #f4f3f3;
@@ -115,6 +129,17 @@ li a {
   text-align: left;
   font-size: 18px;
   flex-shrink: 1;
+}
+/*Section-Stadium*/
+.stadium img {
+  margin-top: 20px;
+  width: 800px;
+  border-radius: 15px;
+}
+.stadium .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /*Section-Media*/
 .social {
