@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="NavBar.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -19,7 +20,7 @@
             alt="RM-logo"
             class="rm-logo-small"
           />
-          <h3>Real Madrid FC</h3>
+          <h3 class="backToTop">Real Madrid FC</h3>
           <a href="#"><img src="img/15C1.jpg" alt="honour" class="honour" /></a>
         </div>
         <ul class="nav">
@@ -82,45 +83,53 @@
     <section class="boxes">
       <div class="container">
         <div class="box">
-          <h2><i class="fa-solid fa-futbol"></i> Stadium</h2>
-          <p>
-            More than an architectural marvel, the Santiago Bernabéu stands as a
-            hallowed cathedral of sport, where the echoes of legendary triumphs
-            and the pursuit of eternal excellence converge to define the very
-            soul of global football.
-          </p>
+          <a href="#stadium"
+            ><h2><i class="fa-solid fa-futbol"></i> Stadium</h2>
+
+            <p>
+              More than an architectural marvel, the Santiago Bernabéu stands as
+              a hallowed cathedral of sport, where the echoes of legendary
+              triumphs and the pursuit of eternal excellence converge to define
+              the very soul of global football.
+            </p></a
+          >
+        </div>
+
+        <div class="box">
+          <a href="#honour"
+            ><h2>
+              <i class="fa-solid fa-crown" style="color: #000000"></i>
+              Achievements
+            </h2>
+            <p>
+              Forged in glory and sustained by a relentless pursuit of
+              perfection, Real Madrid stands as the definitive benchmark of
+              sporting immortality and the ultimate symbol of greatness in the
+              world of football.
+            </p></a
+          >
         </div>
         <div class="box">
-          <h2>
-            <i class="fa-solid fa-crown" style="color: #000000"></i>
-            Achievements
-          </h2>
-          <p>
-            Forged in glory and sustained by a relentless pursuit of perfection,
-            Real Madrid stands as the definitive benchmark of sporting
-            immortality and the ultimate symbol of greatness in the world of
-            football.
-          </p>
-        </div>
-        <div class="box">
-          <h2>
-            <i
-              class="fa-sharp fa-solid fa-circle-user"
-              style="color: #000000"
-            ></i>
-            Head coach
-          </h2>
-          <p>
-            Álvaro Arbeloa Coca (Spanish pronunciation: [ˈalβaɾo aɾβeˈloa
-            ˈkoka]; born 17 January 1983) is a Spanish former professional
-            footballer, currently the head coach of La Liga club Real Madrid. He
-            predominantly played as a right-back, and occasionally on the left
-            side.
-          </p>
+          <a href="#coach"
+            ><h2>
+              <i
+                class="fa-sharp fa-solid fa-circle-user"
+                style="color: #000000"
+              ></i>
+              Head coach
+            </h2>
+            <p>
+              Álvaro Arbeloa Coca (Spanish pronunciation: [ˈalβaɾo aɾβeˈloa
+              ˈkoka]; born 17 January 1983) is a Spanish former professional
+              footballer, currently the head coach of La Liga club Real Madrid.
+              He predominantly played as a right-back, and occasionally on the
+              left side.
+            </p></a
+          >
         </div>
       </div>
     </section>
-    <section class="stadium">
+    <section class="stadium" id="stadium">
       <div class="container">
         <h1>Un estadio de leyenda</h1>
         <a
@@ -236,19 +245,39 @@
       <div class="right">Real Madrid © 2026 All rights reserved</div>
       <ul class="policy">
         <li>
-          <a href="#">SEE ALL SPONSORS</a>
+          <a
+            href="https://www.realmadrid.com/en-US/the-club/sponsors"
+            target="_blank"
+            >SEE ALL SPONSORS</a
+          >
         </li>
         <li>
-          <a href="#">Legal notice</a>
+          <a
+            href="https://www.realmadrid.com/en-US/legal/legal-notice"
+            target="_blank"
+            >Legal notice</a
+          >
         </li>
         <li>
-          <a href="#">Privacy Policy</a>
+          <a
+            href="https://www.realmadrid.com/en-US/legal/privacy-policy"
+            target="_blank"
+            >Privacy Policy</a
+          >
         </li>
         <li>
-          <a href="#">Cookies Policy</a>
+          <a
+            href="https://www.realmadrid.com/en-US/legal/cookie-policy"
+            target="_blank"
+            >Cookies Policy</a
+          >
         </li>
         <li>
-          <a href="#">Canal de información</a>
+          <a
+            href="https://realmadrid.globalsuitesolutions.com/realmadrid"
+            target="_blank"
+            >Canal de información</a
+          >
         </li>
         <li>
           <a href="https://www.realmadrid.com/en-US" target="_blank"
@@ -257,5 +286,6 @@
         </li>
       </ul>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>

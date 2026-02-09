@@ -3,7 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 70px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 body {
   font-family:
     system-ui,
@@ -51,11 +60,26 @@ li a {
   margin-left: 10px;
   margin-top: 10px;
 }
+/*Back to top website*/
+.backToTop:hover {
+  cursor: pointer;
+  color: rgb(102, 4, 102);
+}
 /*Nav Bar*/
 .navbar {
+  background-color: white;
   color: black;
+  font-size: 25px;
   height: 70px;
   border-bottom: 1px solid gray;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+.navbar-scrolled {
+  /*thêm các thuộc tính bên trong class này vào navbar (ghi đè các thuộc tính trùng nhau)*/
+  background-color: #ffffffeb;
 }
 .navbar .logo {
   font-size: xx-large;
